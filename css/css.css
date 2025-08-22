@@ -1,0 +1,79 @@
+body {
+    font-family: "Nata Sans", sans-serif;
+    background-color: #fff8fb;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.titulo {
+    width: 70%;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Nata Sans", sans-serif;
+}
+
+
+
+.titulo p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.contenedor1 {
+    width: 70%;
+    background-color: rgb(255, 238, 247);
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.contenedor1 h2 {
+   
+    color: rgb(252, 145, 191);
+}
+
+.contenedor1 ul {
+    padding-left: 20px;
+}
+
+
+
+.contenedor2 {
+    width: 70%;
+    background-color: rgb(245, 227, 251);
+    margin: 20px auto;
+    padding: 15px;
+}
+.contenedor2 h2 {
+   
+    color: rgb(225, 157, 248);
+}
+.contenedor2 ul {
+    padding-left: 20px;
+}
+
+.contenedor3 {
+    width: 70%;
+   background-color: rgb(207, 251, 207);
+    margin: 20px auto;
+    padding: 15px;
+}
+.contenedor3 h2 {
+   
+    color: rgb(124, 214, 124);
+}
+.contenedor3 ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+.pie {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffd9ec;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
