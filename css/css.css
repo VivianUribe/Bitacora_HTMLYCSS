@@ -1,3 +1,16 @@
+
+@property --azulitocontene {
+            syntax: "<color>";
+            inherits: true;
+            initial-value: rgb(227, 242, 250);
+        
+        }
+         @property --tamaño{
+            syntax: "<length>";
+            inherits: false;
+            initial-value: 30px;
+        }
+
 body {
     font-family: "Nata Sans", sans-serif;
     background-color: #fff8fb;
@@ -19,19 +32,19 @@ body {
 
 .titulo p {
     margin: 5px 0 0;
-    font-size: 14px;
+    font-size: var(--tamaño);
 }
 
 .contenedor1 {
     width: 70%;
-    background-color: rgb(255, 238, 247);
+    background-color: var(--azulitocontene);
     margin: 20px auto;
     padding: 15px;
 }
 
 .contenedor1 h2 {
-   
-    color: rgb(252, 145, 191);
+
+    color: rgb(113, 197, 245);
 }
 
 .contenedor1 ul {
@@ -56,17 +69,43 @@ body {
 
 .contenedor3 {
     width: 70%;
-   background-color: rgb(207, 251, 207);
+   background-color: #ffddea;
+   
     margin: 20px auto;
     padding: 15px;
 }
 .contenedor3 h2 {
-   
-    color: rgb(124, 214, 124);
+   color: #f790b7;
+    
 }
 .contenedor3 ul {
     padding-left: 20px;
 }
+
+.contenedor4 {
+    width: 70%;
+   background-color: rgb(255, 253, 224);
+    margin: 20px auto;
+    padding: 15px;
+    Display: block;
+}
+.contenedor4 h2 {
+   
+    color: rgb(253, 215, 0);
+}
+.contenedor4 ul {
+    padding-left: 20px;
+}
+
+       .img{
+            width: 50%;
+            height: 50%;
+            
+        }
+        .mascara {
+            mask-image: url(https://cdn-icons-png.flaticon.com/512/764/764059.png);
+            mask-repeat: no-repeat;
+        }
 
 /* Footer */
 .pie {
