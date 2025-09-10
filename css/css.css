@@ -305,6 +305,13 @@ body {
             }
         }
 
+        .temaia{
+                width: 70%;
+    background-color: #e3faf6;
+    margin: 20px auto;
+    padding: 15px;
+        }
+
 /* Footer */
 .pie {
     text-align: center;
@@ -313,4 +320,5 @@ body {
     margin-top: 20px;
     font-size: 14px;
 }
+
 
